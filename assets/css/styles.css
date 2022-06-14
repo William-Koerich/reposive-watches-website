@@ -547,8 +547,17 @@ body.dark-theme {
   background-color: var(--button-color-alt);
 }
 
+.products__button i {
+  color: var(--first-color);
+}
+
 .products__card:hover {
   box-shadow: 0 8px 32px hsla(0, 0%, 10%, .1);
+  background-color: var(--first-color);
+}
+
+.products__card:hover span {
+  color: var(--title-color);
 }
 
 /*=============== TESTIMONIAL ===============*/
